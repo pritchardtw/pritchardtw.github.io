@@ -9,14 +9,21 @@
    background-color: white;
 }
 
+.jumbotron {
+    height: 236px;
+    background-color: transparent;
+    margin: 0 0;
+    padding: 0 0;
+}
+
 .navbar-default .navbar-brand:hover {
     background-color: white;
     color: #00c7fe;
 }
 
 .l-logo-container {
-    width: 605px;
-    height: 236px;
+    width: auto;
+    height: auto;
     max-height:236px;
     max-width:605px;
     margin: auto;

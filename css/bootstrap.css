@@ -6,8 +6,8 @@
 }
 
 .jumbotron {
-    background: white url('/images/L Logo.png') no-repeat fixed center 20%;
-    height:300px;
+    background: white url('/images/L Logo.png') no-repeat fixed center 75px;
+    height: 300px;
 }
 
 .navbar-default .navbar-brand {

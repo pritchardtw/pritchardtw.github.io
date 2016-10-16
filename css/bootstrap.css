@@ -1,12 +1,12 @@
+.main {
+    width: 1px;
+    min-width: 100%;
+}
 
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
     margin: 0;
     border-radius: 0;
-}
-
-.main {
-    width: 100%;
 }
 
 .jumbotron {

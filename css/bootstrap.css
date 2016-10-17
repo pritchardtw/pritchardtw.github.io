@@ -2,11 +2,38 @@
 .navbar {
     margin: 0;
     border-radius: 0;
+    background-color: white;
+    border-color: white;
 }
 
-.navbar-default .navbar-brand{
+.navbar-default .navbar-nav > .active a, .navbar-default .navbar-nav > .active a:hover{
+    background-color: white;
+    color: #00c7fe;
+}
+
+.navbar-default .navbar-brand {
    color: #ff009c;
-   background-color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #00c7fe;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ff009c;
+    font-size: large;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #00c7fe;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #00c7fe;
+}
+
+.navbar-default .navbar-nav {
+    font-family: 'Lobster', cursive;
 }
 
 .jumbotron {
@@ -14,11 +41,6 @@
     background-color: transparent;
     margin: 0 0;
     padding: 0 0;
-}
-
-.navbar-default .navbar-brand:hover {
-    background-color: white;
-    color: #00c7fe;
 }
 
 .l-logo-container {
@@ -32,6 +54,14 @@
 .img-background {
     position: fixed;
     z-index: -1;
+}
+
+.container-fluid h1 {
+    font-family: 'Lobster', cursive;
+}
+
+.container-fluid h3 {
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Add a gray background color and some padding to the footer */

@@ -1,6 +1,5 @@
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
-    margin: 0;
     border-radius: 0;
     background-color: white;
     border-color: white;
@@ -8,29 +7,26 @@
 
 .navbar-default .navbar-nav > .active a, .navbar-default .navbar-nav > .active a:hover{
     background-color: white;
-    color: #00c7fe;
+    color: #ff009c;
 }
 
 .navbar-default .navbar-brand {
-   color: #ff009c;
+   color: #00c7fe;
    font-family: 'Lobster', cursive;
+   font-size: large;
 }
 
 .navbar-default .navbar-brand:hover {
-    color: #00c7fe;
+    color: #ff009c;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #ff009c;
+    color: #00c7fe;
     font-size: large;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-    color: #00c7fe;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    color: #00c7fe;
+    color: #ff009c;
 }
 
 .navbar-default .navbar-nav {

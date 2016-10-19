@@ -1,56 +1,26 @@
-/* Remove the navbar's default margin-bottom and rounded borders */
-.navbar {
-    border-radius: 0;
-    background-color: white;
-    border-color: white;
-}
-
-.navbar-default .navbar-nav > .active a, .navbar-default .navbar-nav > .active a:hover{
-    background-color: white;
-    color: #ff009c;
-}
-
-.navbar-default .navbar-brand {
-   color: #00c7fe;
-   font-family: 'Lobster', cursive;
-   font-size: large;
-}
-
-.navbar-default .navbar-brand:hover {
-    color: #ff009c;
-}
-
-.navbar-default .navbar-nav > li > a {
-    color: #00c7fe;
-    font-size: large;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    color: #ff009c;
-}
-
-.navbar-default .navbar-nav {
-    font-family: 'Lobster', cursive;
-}
-
-.jumbotron {
-    height: 236px;
-    background-color: transparent;
+.banner {
+    top: 0;
+    height: 100vh;
+    background: url('/images/BW Mountain.png') no-repeat fixed; 
     margin: 0 0;
     padding: 0 0;
-}
-
-.l-logo-container {
-    width: auto;
-    height: auto;
-    max-height:236px;
-    max-width:605px;
-    margin: auto;
+    background-size: cover;
+    border: none;
+    color: white;
 }
 
 .img-background {
     position: fixed;
     z-index: -1;
+}
+
+.banner .banner-content h1 {
+    font-family: 'Lobster', cursive;
+}
+
+.banner-content {
+    position: absolute;
+    bottom: 20%;
 }
 
 .container-fluid h1 {

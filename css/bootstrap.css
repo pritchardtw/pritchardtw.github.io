@@ -1,26 +1,39 @@
 .banner {
-    top: 0;
     height: 100vh;
-    background: url('/images/BW Mountain.png') no-repeat fixed; 
-    margin: 0 0;
-    padding: 0 0;
+    background: url('/images/BW Mountain.png') no-repeat center center fixed; 
     background-size: cover;
-    border: none;
     color: white;
 }
 
-.img-background {
-    position: fixed;
-    z-index: -1;
+#welcome {
+    font-family: 'Oswald', cursive;
 }
 
-.banner .banner-content h1 {
-    font-family: 'Lobster', cursive;
+#site {
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+    color: white;
 }
 
-.banner-content {
+#site:hover {
+    color: #00d0ff;
+}
+
+.banner-content1 {
     position: absolute;
-    bottom: 20%;
+    bottom: 25%;
+    padding-left: 2em;
+}
+
+.banner-content2 {
+    position: absolute;
+    bottom: 16%;
+    padding-left: 5em;
+    transform: rotate(-18deg);
+}
+
+.banner-content2 a:hover {
+    text-decoration: none;
 }
 
 .container-fluid h1 {

@@ -32,7 +32,7 @@
     transform: rotate(-18deg);
 }
 
-.banner-content2 a:hover {
+.banner-content2 a:hover, banner-content2 a:active {
     text-decoration: none;
 }
 

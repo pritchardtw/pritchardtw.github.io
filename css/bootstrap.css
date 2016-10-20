@@ -17,18 +17,18 @@
 
 .banner-content1 {
     position: absolute;
-    bottom: 25%;
-    padding-left: 2em;
+    bottom: 28%;
+    padding-left: 3%;
 }
 
 .banner-content2 {
     position: absolute;
-    bottom: 16%;
-    padding-left: 5em;
-    transform: rotate(-18deg);
+    bottom: 18%;
+    padding-left: 14%;
+    transform: rotate(-17deg);
 }
 
-.banner-content2 a, a:hover, a:active, a:visited {
+.banner-content2 a, a:active, a:visited {
     text-decoration: none;
 }
 

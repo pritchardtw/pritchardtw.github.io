@@ -9,20 +9,12 @@ body {
     color: white;
 }
 
-#welcome {
-    font-family: 'Oswald', cursive;
-}
-
-#site {
-    font-family: 'Lobster Two', cursive;
-    font-style: italic;
-    color: white;
-}
-
 .banner-content1 {
+    font-family: 'Oswald', cursive;
     position: absolute;
     bottom: 28%;
     padding-left: 3%;
+    color: white;
 }
 
 .banner-content2 {
@@ -30,14 +22,23 @@ body {
     bottom: 18%;
     padding-left: 14%;
     transform: rotate(-17deg);
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+    color: white;
 }
 
 .banner-content2 a, a:active, a:visited {
     text-decoration: none;
 }
 
-#site:hover {
+.banner-content2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner-content2 a:hover {
     color: #00d0ff;
+    text-decoration: none;
 }
 
 .section-break {
@@ -63,4 +64,108 @@ body {
 footer {
     background-color: white;
     padding: 25px;
+}
+
+.navbar-fixed-side-left {
+  left: 0;
+}
+
+.navbar-fixed-side-right {
+  right: 0;
+}
+
+.navbar-collapse {
+    top: 25%;
+}
+
+.navbar-header > .icon-bar {
+    color: black;
+}
+
+.navbar-fixed-side {
+  position: fixed;
+  border-width: 0;
+  z-index: 1030;
+  min-height: 5px;
+  min-width: 5px;
+  max-width: 200px;
+  margin-bottom: 0;
+  border: 0px solid transparent;
+  background-color: transparent;
+}
+
+.navbar-fixed-side .navbar-toggle {
+  float: none;
+  margin: 0;
+}
+
+.navbar-fixed-side .navbar-collapse .nav > li > a, a:link, a:active, a:visited, a:focus {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-fixed-side .navbar-collapse .nav > li > a > h1 {
+  font-family: 'Lobster Two', cursive;
+}
+
+.navbar-fixed-side .nav > li > a:hover {
+  color: #00d0ff;
+}
+
+.navbar-fixed-side .dropdown-header {
+  padding: 5px;
+}
+
+.navbar-fixed-side .navbar-nav {
+  margin: 0;
+  color: transparent;
+}
+
+.navbar-fixed-side .navbar-nav > li {
+  float: none;
+}
+
+.navbar-fixed-side .navbar-nav > li > a {
+  padding: 5px;
+  line-height: 20px;
+}
+
+.navbar-fixed-side .navbar-collapse .navbar-nav > li > a:active, a:visited, a:focus, a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-fixed-side .navbar-nav .open .dropdown-menu > li > a,
+.navbar-fixed-side .navbar-nav .open .dropdown-menu .dropdown-header {
+  padding: 3px 5px 3px 15px;
+}
+
+.navbar-fixed-side .container {
+  width: 100%;
+  padding: 0;
+}
+
+.navbar-fixed-side .navbar-header {
+  float: none;
+  margin: 0;
+}
+
+.navbar-fixed-side .navbar-collapse {
+  padding: 0 2px;
+}
+
+.navbar-fixed-side .container .navbar-collapse {
+  margin: 0;
+}
+
+.navbar-fixed-side .container .navbar-brand {
+  margin: 0;
+}
+
+.navbar-fixed-side .navbar-brand {
+  float: none;
+  height: 100%;
+  padding: 5px 3px;
+  font-size: 18px;
+  line-height: 20px;
 }

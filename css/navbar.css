@@ -58,7 +58,7 @@ div.navbar-collapse.collapse.in {
 div.navbar-collapse.collapse.in > ul > li {
     box-shadow: none;
     margin-top: 0;
-    height: 20%;
+    height: 10%;
     width: 80%;
 }
 
@@ -66,6 +66,7 @@ div.navbar-collapse.collapse.in > ul.navbar-nav {
     box-shadow: none;
     margin-top: 0;
     height: 95%;
+    margin-top: 0;
 }
 
 div.navbar-collapse {

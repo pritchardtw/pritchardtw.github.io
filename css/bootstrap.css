@@ -2,7 +2,7 @@ body {
     background: url('/images/BW Mountain.png') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .banner {
@@ -49,9 +49,11 @@ body {
 }
 
 .section-break {
+    position: relative;
     height: 100vh;
     color: transparent;
     background-color: transparent;
+    z-index: -1;
 }
 
 .container-fluid h1 {
@@ -63,6 +65,9 @@ body {
 }
 
 .subsection {
+    position: relative;
+    width: 100%;
+    z-index: 1;
     background-color: white;
     padding-bottom: 20px;
 }

@@ -10,7 +10,6 @@
 
 .navbar-fixed-side {
   position: fixed;
-  z-index: 1;
   min-height: 5px;
   min-width: 5px;
   max-width: 200px;

@@ -21,7 +21,7 @@ body {
 
 .banner-content1 h1 {
     width: 100%;
-    font-size:calc(8px + 1.5vw);
+    font-size:calc(8px + 2vw);
 }
 
 .banner-content2 {
@@ -40,7 +40,7 @@ body {
 
 .banner-content2 a h1 {
     width: 100%;
-    font-size:calc(12px + 1.5vw);
+    font-size:calc(12px + 2vw);
 }
 
 .banner-content2 a:hover {

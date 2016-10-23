@@ -1,0 +1,119 @@
+/*Nav bar styling*/
+
+.navbar-fixed-side-left {
+  left: 0;
+}
+
+.navbar-fixed-side-right {
+  right: 0;
+}
+
+.navbar-fixed-side {
+  position: fixed;
+  z-index: 1;
+  min-height: 5px;
+  min-width: 5px;
+  max-width: 200px;
+  margin-bottom: 0;
+  background-color: transparent;
+  border: none;
+  height: 100vh;
+}
+
+.navbar-fixed-side .navbar-toggle {
+  float: right;
+  border: none;
+  margin: 0;
+  padding: 0;
+  height: 8%;
+}
+
+.navbar-fixed-side .container {
+  width: 100%;
+  height: 92%;
+}
+
+.navbar-fixed-side .navbar-header {
+  float: none;
+  margin: 0;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  height: 8%;
+}
+
+.navbar-fixed-side .navbar-brand {
+  float: none;
+  height: 100%;
+  font-size: 18px;
+  border: none;
+}
+
+div.navbar-collapse.collapse.in {
+    box-shadow: none;
+    margin-top: 0;
+    height: 100%;
+}
+
+div.navbar-collapse.collapse.in > ul > li {
+    box-shadow: none;
+    margin-top: 0;
+    height: 20%;
+    width: 80%;
+}
+
+div.navbar-collapse.collapse.in > ul.navbar-nav {
+    box-shadow: none;
+    margin-top: 0;
+    height: 95%;
+}
+
+div.navbar-collapse {
+    box-shadow: none;
+    border: none;
+    margin-top: 10%;
+    height: 100%;
+}
+
+/*Link Behavior Styling*/
+
+.navbar-fixed-side .navbar-toggle:link {
+  background-color: transparent;
+}
+
+.navbar-fixed-side .navbar-toggle:visited {
+  background-color: transparent;
+}
+
+.navbar-fixed-side .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-fixed-side .navbar-toggle:active {
+  background-color: transparent;
+}
+
+.navbar-fixed-side .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.navbar-fixed-side .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-fixed-side .navbar-toggle:hover .icon-bar {
+  background-color: #00d0ff;
+}
+
+.navbar-fixed-side .navbar-collapse .nav > li > a > h1 {
+  font-family: 'Lobster Two', cursive;
+}
+
+.navbar-fixed-side .navbar-collapse .nav > li > a:hover {
+  color: #00d0ff;
+}
+
+.navbar-fixed-side .navbar-collapse .navbar-nav > li > a, a:link, a:visited, a:active, a:focus {
+  color: white;
+  text-decoration: none;
+}

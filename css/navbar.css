@@ -18,7 +18,7 @@
   background-color: transparent;
   border: none;
   height: 100vh;
-  width: 20vw;
+  width: 25vw;
 }
 
 .navbar-fixed-side .navbar-toggle {
@@ -53,6 +53,7 @@
 
 div.navbar-collapse.collapse.in {
     box-shadow: none;
+    float: right;
 }
 
 div.navbar-collapse.collapse.in > ul > li {
@@ -67,14 +68,15 @@ div.navbar-collapse.collapse.in > ul.navbar-nav {
 div.navbar-collapse {
     box-shadow: none;
     border: none;
+    float: right;
 }
 
 div.navbar-collapse > ul > li > a > h1 {
-    font-size: calc(12px + 1.5vw);
+    font-size: calc(12px + 2vw);
 }
 
 div.navbar-collapse.collapse.in > ul > li > a > h1 {
-    font-size: calc(12px + 1.5vw);
+    font-size: calc(12px + 2vw);
 }
 
 /*Link Behavior Styling*/

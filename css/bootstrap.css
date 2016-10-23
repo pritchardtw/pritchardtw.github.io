@@ -15,6 +15,8 @@ body {
     bottom: 28%;
     padding-left: 3%;
     color: white;
+    height: auto;
+    width: 25%;
 }
 
 .banner-content2 {
@@ -25,6 +27,8 @@ body {
     font-family: 'Lobster Two', cursive;
     font-style: italic;
     color: white;
+    height: auto;
+    width: 40%;
 }
 
 .banner-content2 a, a:active, a:visited {
@@ -76,13 +80,14 @@ footer {
 
 .navbar-fixed-side {
   position: fixed;
-  z-index: 1030;
+  z-index: 1;
   min-height: 5px;
   min-width: 5px;
   max-width: 200px;
   margin-bottom: 0;
   background-color: transparent;
   border: none;
+  height: 100%;
 }
 
 .navbar-fixed-side .navbar-toggle {
@@ -133,6 +138,7 @@ footer {
 
 .navbar-fixed-side .container {
   width: 100%;
+  margin-top: 50%;
 }
 
 .navbar-fixed-side .navbar-header {

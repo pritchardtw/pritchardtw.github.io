@@ -72,6 +72,44 @@ body {
     padding-bottom: 20px;
 }
 
+.image-class {
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 200px;
+    min-height: 200px;
+    width: 20vw;
+    height: 20vw;
+}
+
+#embedded {
+    background: url(/images/uC_white.png) no-repeat center center;
+    background-size: contain;
+}
+
+#embedded:hover {
+    background: url(/images/uC_blue.png) no-repeat center center;
+    background-size: contain;
+}
+
+#application {
+    background: url(/images/application_white_crop.png) no-repeat center center;
+    background-size: contain;
+}
+
+#application:hover {
+    background: url(/images/application_blue_crop.png) no-repeat center center;
+    background-size: contain;
+}
+
+#website {
+    background: url(/images/web_gray.png) no-repeat center center;
+    background-size: contain;
+}
+
+#website:hover {
+    background: url(/images/web_blue.png) no-repeat center center;
+    background-size: contain;
+}
 /* Add a gray background color and some padding to the footer */
 footer {
     background-color: white;

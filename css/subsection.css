@@ -1,0 +1,39 @@
+.bodydiv {
+    background-color: rgba(255, 255, 255, .75);
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: absolute;
+    top: 0;
+}
+.project {
+    width: 100%;
+    background-color: white;
+    margin: 0 0;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.project h1 {
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+    color: black;
+    /* 
+        em subtraction in margin is
+        because having italic font style
+        pushes the heading right a little 
+        bit. This subtraction helps it align
+        better with the .project p.
+    */
+    margin-left: .8em);
+}
+
+.project p {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    background: transparent;
+    border: none;
+}

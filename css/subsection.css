@@ -9,31 +9,57 @@
     position: absolute;
     top: 0;
 }
+
 .project {
-    width: 100%;
+    width: 100vw;
     background-color: white;
     margin: 0 0;
     padding-left: 10vw;
     padding-right: 10vw;
+    position: relative;
+    top: 0;
 }
 
 .project h1 {
     font-family: 'Lobster Two', cursive;
     font-style: italic;
     color: black;
-    /* 
-        em subtraction in margin is
-        because having italic font style
-        pushes the heading right a little 
-        bit. This subtraction helps it align
-        better with the .project p.
-    */
-    margin-left: .8em);
 }
 
 .project p {
     color: black;
+    padding-top: 2em;
+    padding-bottom: 2em;
     font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     background: transparent;
     border: none;
+}
+
+#homecol span a {
+    color: white;
+}
+
+#homecol span {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+#homecol {
+    height: 5em;
+    width: 3.5em;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    position: relative;
+}
+
+.project-section-break {
+    position: relative;
+    height: 25vh;
+    color: transparent;
+    background-color: transparent;
+    z-index: -1;
 }

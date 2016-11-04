@@ -1,6 +1,8 @@
 html { 
   height: 100%;
+  overflow: hidden;
 }
+
 body
 {
   background: url('/images/BW Mountain.png') no-repeat center center fixed;

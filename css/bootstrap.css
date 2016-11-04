@@ -1,19 +1,19 @@
 html { 
-  background: url('/images/BW Mountain.png') no-repeat center center fixed;
-  background-size: cover;
   height: 100%;
   overflow: hidden;
 }
 body
 {
+  background: url('/images/BW Mountain.png') no-repeat center center fixed;
   height:100%;
+  background-size: cover;
   overflow: auto;
 }
-body {
+/*body {
     background: url('/images/BW Mountain.png') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
-}
+}*/
 
 .banner {
     height: 100%;

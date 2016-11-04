@@ -1,6 +1,6 @@
 body {
     background: url('/images/BW Mountain.png') no-repeat center center fixed;
-    background-size: cover;
+    background-size: 100% 100%;
     height: 100vh;
 }
 

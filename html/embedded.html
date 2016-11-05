@@ -59,7 +59,35 @@
             </div>
         </div>
         <p>
-            This is an arduino hooked up to a PWM driver powering a light source.
+            This project was part of my senior design course in college. We worked with the GE Healthcare - Imaging - Computed Tomography (CT) team. 
+            In a CT machine, radiation rays blast through your body and collide with a special cintilating material on a circuit board. The
+            more radiation that collides with the cintilating material the more the material glows. The glowing is captured by a photo-diode and related to a voltage
+            output from the diode. The voltage is captured by an ADC and sent to a reconstruction engine. The information from all the cintilating nodes is combined 
+            to form an image of your body. In this machine an important assumption is made that the relationship between the glowing from the cintilating material
+            and voltage produced from the diode is linear. <br/><br/> We were tasked with developing a tool to test the lineaerity of the photo-diodes.<br /><br />
+            We planned to have a power supply, LED Driver, micro-controller, and some sensors. My formal responsibility was the micro-controller design, but I
+            put a lot of effort into the LED Driver and sensors as well. 
+            <img class="img-responsive" src="../images/embedded/linearlightsource/blockdiagram.png" />
+            The actual protoype was a power supply, an arduino, an LED Driver, current sensor, voltage sensor, and an LED light.
+            <img class="img-responsive" src="../images/embedded/linearlightsource/prototype.png" />
+            Arduino
+            <img class="img-responsive" src="../images/embedded/linearlightsource/arduino.png" />
+            We used Matlab's 'GUIde' tool to create a GUI. I programmed the GUI and callbacks to work with the arduino to set the PWM levels to the LED and 
+            sample the voltages and currents generated from the sensors. The final prototype was able to manipulate the lumen output of the LED but we did not
+            get the prototype to integrate with the lumen sensor.
+            <img class="img-responsive" src="../images/embedded/linearlightsource/GUI.png" />
+            As part of the micro-controller development I also created a block diagram, schematic, and (admitedly sketchy) PCB layout.
+            <div class="row">
+                <div class="col-sm-4">
+                    <img class="img-responsive" src="../images/embedded/linearlightsource/controllerblockdiagram.png" />
+                </div>
+                <div class="col-sm-4">
+                    <img class="img-responsive" src="../images/embedded/linearlightsource/schematic.png" />
+                </div>
+                <div class="col-sm-4">
+                    <img class="img-responsive" src="../images/embedded/linearlightsource/pcb.png" />
+                </div>
+            </div>
         </p>
     </div>
 </body>

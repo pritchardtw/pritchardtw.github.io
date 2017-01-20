@@ -5,7 +5,7 @@ html {
 
 body
 {
-  background: url('/images/BW Mountain.png') no-repeat center center fixed;
+  background: url('../images/BW Mountain.png') no-repeat center center fixed;
   height:100%;
   background-size: cover;
   overflow: auto;
@@ -91,32 +91,32 @@ body
 }
 
 #embedded {
-    background: url(/images/uC_white.png) no-repeat center center;
+    background: url(../images/uC_white.png) no-repeat center center;
     background-size: contain;
 }
 
 #embedded:hover {
-    background: url(/images/uC_blue.png) no-repeat center center;
+    background: url(../images/uC_blue.png) no-repeat center center;
     background-size: contain;
 }
 
 #application {
-    background: url(/images/application_white_crop.png) no-repeat center center;
+    background: url(../images/application_white_crop.png) no-repeat center center;
     background-size: contain;
 }
 
 #application:hover {
-    background: url(/images/application_blue_crop.png) no-repeat center center;
+    background: url(../images/application_blue_crop.png) no-repeat center center;
     background-size: contain;
 }
 
 #website {
-    background: url(/images/web_gray.png) no-repeat center center;
+    background: url(../images/web_gray.png) no-repeat center center;
     background-size: contain;
 }
 
 #website:hover {
-    background: url(/images/web_blue.png) no-repeat center center;
+    background: url(../images/web_blue.png) no-repeat center center;
     background-size: contain;
 }
 /* Add a gray background color and some padding to the footer */

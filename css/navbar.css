@@ -5,7 +5,7 @@
 }
 
 .navbar-fixed-side-right {
-  right: 0;
+  right: 3%;
 }
 
 .navbar-fixed-side {
@@ -31,7 +31,9 @@
 
 .navbar-fixed-side .container {
   width: 100%;
-  height: 92%;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .navbar-fixed-side .navbar-header {
@@ -109,7 +111,7 @@ div.navbar-collapse.collapse.in > ul > li > a > h1 {
 }
 
 .navbar-fixed-side .navbar-collapse .nav > li > a > h1 {
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Oswald', sans;
 }
 
 .navbar-fixed-side .navbar-collapse .nav > li > a:hover {

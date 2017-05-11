@@ -1,6 +1,7 @@
 html {
   height: auto;
   min-height: 100%;
+  width: 100%;
 }
 
 body
@@ -8,13 +9,14 @@ body
   background: url('../images/BW Mountain.png') no-repeat center center fixed;
   height: auto%;
   min-height: 100%;
+  width: 100%;
   background-size: cover;
   z-index: -3;
 }
 
 .banner {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     color: white;
     position: relative;
     z-index: -2;

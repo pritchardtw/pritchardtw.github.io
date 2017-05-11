@@ -21,8 +21,7 @@ $(document).ready(function(){
 	// scroll function
 	function scrollToID(id, speed){
 		console.log("Scroll to ID called");
-		var offSet = 50;
-		var targetOffset = $(id).offset().top - offSet;
+		var targetOffset = $(id).offset().top;
 		console.log(targetOffset);
 		$root.animate({scrollTop:targetOffset}, speed);
 	}

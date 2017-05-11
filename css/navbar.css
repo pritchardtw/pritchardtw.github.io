@@ -8,6 +8,11 @@
   right: 3%;
 }
 
+.nav-li {
+  margin: 15px;
+  position: relative;
+}
+
 .navbar-fixed-side {
   position: fixed;
   min-height: 5px;
@@ -121,4 +126,8 @@ div.navbar-collapse.collapse.in > ul > li > a > h1 {
 .navbar-fixed-side .navbar-collapse .navbar-nav > li > a, a:link, a:visited, a:active, a:focus {
   color: white;
   text-decoration: none;
+}
+
+a.nav-a {
+  z-index: 0;
 }

@@ -11,12 +11,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/navbar.css" />
 </head>
 <body>
-    <a name="homesection"></a>
+    <a id="homesection"></a>
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-side navbar-fixed-side-right" role="navigation">
         <div class="navbar-header">
@@ -28,10 +29,10 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href="#homesection"><h1>Home</h1></a></li>
-                <li><a href="#aboutsection"><h1>About</h1></a></li>
-                <li><a href="#projectssection"><h1>Projects</h1></a></li>
-                <li><a href="#contactsection"><h1>Contact</h1></a></li>
+                <li class="nav-li"><a class="nav-a" data-id="homesection" href="#"><h1>Home</h1></a></li>
+                <li class="nav-li"><a class="nav-a" data-id="aboutsection" href="#"><h1>About</h1></a></li>
+                <li class="nav-li"><a class="nav-a" data-id="projectssection" href="#"><h1>Projects</h1></a></li>
+                <li class="nav-li"><a class="nav-a" data-id="contactsection" href="#"><h1>Contact</h1></a></li>
             </ul>
         </div>
     </div>
@@ -45,7 +46,7 @@
     </div>
     <div class="container-fluid subsection">
         <h1>
-            <a name="aboutsection"></a>
+            <a id="aboutsection"></a>
         About
         </h1>
         <h3>
@@ -58,7 +59,7 @@
     </div>
     <div class="container-fluid bg-3 subsection">
         <h1>
-            <a name="projectssection"></a>
+            <a id="projectssection"></a>
         Projects
         </h1>
         <h3>
@@ -89,7 +90,7 @@
     <div class="container-fluid section-break">
     </div>
     <footer class="container-fluid text-center subsection">
-        <a name="contactsection"></a>
+        <a id="contactsection"></a>
         <h1>Contact <br/>Thomas Pritchard</h1>
         <h3>pritchardtw@gmail.com<br />262.302.0601</h3>
     </footer>

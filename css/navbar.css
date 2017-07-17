@@ -32,6 +32,8 @@
   margin-right: 10%;
   padding: 0;
   height: 25%;
+  min-height: 20px;
+  min-width: 20px;
 }
 
 .navbar-fixed-side .container {

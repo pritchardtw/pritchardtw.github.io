@@ -9,9 +9,10 @@
 }
 
 .nav-li {
-  margin: 15px;
-  position: relative;
-  height: 10vh;
+  font-size: calc(12px + 2vh);
+  margin-top: 8vh;
+  margin-right: 5vw;
+  padding: 0;
 }
 
 .navbar-fixed-side {
@@ -23,18 +24,11 @@
   background-color: transparent;
   border: none;
   height: 100vh;
-  width: 25vw;
+  width: 12vw;
 }
 
-.navbar-fixed-side .navbar-toggle {
-  float: right;
+.navbar-toggle {
   border: none;
-  margin-top: 10%;
-  margin-right: 10%;
-  padding: 0;
-  height: 25%;
-  min-height: 20px;
-  min-width: 20px;
 }
 
 .navbar-fixed-side .container {
@@ -60,16 +54,6 @@
   border: none;
 }
 
-div.navbar-collapse.collapse.in {
-    box-shadow: none;
-    float: right;
-}
-
-div.navbar-collapse.collapse.in > ul > li {
-    box-shadow: none;
-    margin-top: 0;
-}
-
 div.navbar-collapse.collapse.in > ul.navbar-nav {
     box-shadow: none;
 }
@@ -82,10 +66,23 @@ div.navbar-collapse {
 
 div.navbar-collapse > ul > li > a > h1 {
     font-size: calc(12px + 2vh);
+    margin: 0;
+    padding: 0;
 }
 
 div.navbar-collapse.collapse.in > ul > li > a > h1 {
     font-size: calc(12px + 2vh);
+    margin: 0;
+    padding: 0;
+}
+
+div.navbar-collapse.collapse.in {
+  width: 100%;
+  overflow: visible;
+}
+
+div.navbar-collapse.collapsing {
+  width: 100%;
 }
 
 /*Link Behavior Styling*/
@@ -129,6 +126,11 @@ div.navbar-collapse.collapse.in > ul > li > a > h1 {
 .navbar-fixed-side .navbar-collapse .navbar-nav > li > a, a:link, a:visited, a:active, a:focus {
   color: white;
   text-decoration: none;
+}
+
+.navbar-fixed-side .navbar-collapse .navbar-nav > li > a {
+  margin: 0;
+  padding: 0;
 }
 
 a.nav-a {

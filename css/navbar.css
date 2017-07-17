@@ -11,6 +11,7 @@
 .nav-li {
   margin: 15px;
   position: relative;
+  height: 10vh;
 }
 
 .navbar-fixed-side {
@@ -80,11 +81,11 @@ div.navbar-collapse {
 }
 
 div.navbar-collapse > ul > li > a > h1 {
-    font-size: calc(12px + 2vw);
+    font-size: calc(12px + 2vh);
 }
 
 div.navbar-collapse.collapse.in > ul > li > a > h1 {
-    font-size: calc(12px + 2vw);
+    font-size: calc(12px + 2vh);
 }
 
 /*Link Behavior Styling*/

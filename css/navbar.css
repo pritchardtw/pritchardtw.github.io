@@ -115,7 +115,8 @@ div.navbar-collapse.collapsing {
 }
 
 .navbar-fixed-side .navbar-collapse .nav > li > a > h1 {
-  font-family: 'Oswald', sans;
+  font-family: 'Allan', sans;
+  /*font-weight: bold;*/
 }
 
 .navbar-fixed-side .navbar-collapse .nav > li > a:hover {

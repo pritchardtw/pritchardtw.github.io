@@ -24,14 +24,14 @@ body
     z-index: -2;
 }
 
-.banner-content1 {
+/*.banner-content1 {
     position: absolute;
     bottom: 28%;
     padding-left: 3%;
     font-family: 'Oswald', sans;
     color: white;
     z-index: -2;
-}
+}*/
 
 .banner-content1 h1 {
     width: 100%;
@@ -41,9 +41,10 @@ body
 
 .banner-content2 {
     position: absolute;
-    bottom: 18%;
-    padding-left: 14%;
-    transform: rotate(-17deg);
+    top: 0;
+    left: 1%;
+    /*padding-left: 14%;*/
+    /*transform: rotate(-17deg);*/
     font-family: 'Lobster Two', cursive;
     font-style: italic;
     color: white;
@@ -57,7 +58,7 @@ body
 
 .banner-content2 a h1 {
     width: 100%;
-    font-size:calc(15px + 1.5vw);
+    font-size:calc(5px + 1.5vw);
     z-index: -2;
 }
 
@@ -75,7 +76,7 @@ body
 }
 
 .container-fluid h1 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Allan', cursive;
 }
 
 .container-fluid h3 {

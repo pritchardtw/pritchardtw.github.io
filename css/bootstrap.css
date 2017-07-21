@@ -114,6 +114,7 @@ body
     min-height: 200px;
     width: 20vw;
     height: 20vw;
+    margin: 0 auto;
 }
 
 #embedded {
@@ -144,6 +145,10 @@ body
 #website:hover {
     background: url(../images/web_blue.png) no-repeat center center;
     background-size: contain;
+}
+
+.col-sm-4 {
+  text-align: center;
 }
 /* Add a gray background color and some padding to the footer */
 footer {

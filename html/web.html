@@ -11,11 +11,13 @@
     <link href="https://fonts.googleapis.com/css?family=Bangers|Satisfy" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/lightbox.js"></script>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="../css/navbar.css" />
     <link rel="stylesheet" type="text/css" href="../css/subsection.css" />
+    <link rel="stylesheet" type="text/css" href="../css/lightbox.css" />
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -28,29 +30,74 @@
 </head>
 <body>
     <div class="project">
+      <div class="row">
+          <div class="col-sm-12">
+              <div style="float: left">
+                  <h1>React & Redux: Blog App</h1>
+              </div>
+              <div style="float: right" id="homecol">
+                  <span><a href="../index.html">Home</a></span>
+              </div>
+          </div>
+      </div>
+      <p>
+        Check out this blog app I created in the react and redux course I took! It uses react, redux, redux-promise, redux-forms, amongst other packages. It interfaces
+        to an api where you can perform all CRUD operations.
         <div class="row">
-            <div class="col-sm-12">
-                <div style="float: left">
-                    <h1>React & Redux!</h1>
-                </div>
-                <div style="float: right" id="homecol">
-                    <span><a href="../index.html">Home</a></span>
-                </div>
-            </div>
+          <div class="col-sm-4">
+            <a href="../images/web/blog1.png" data-lightbox="blog-app">
+              <img class="img-responsive" style="max-height: 640px; max-width: 285px" src="../images/web/blog1.png" />
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="../images/web/blog2.png" data-lightbox="blog-app">
+              <img class="img-responsive" style="max-height: 640px; max-width: 285px" src="../images/web/blog2.png" />
+            </a>          </div>
+          <div class="col-sm-4">
+            <a href="../images/web/blog3.png" data-lightbox="blog-app">
+              <img class="img-responsive" style="max-height: 640px; max-width: 285px" src="../images/web/blog3.png" />
+            </a>
+          </div>
         </div>
-        <p>
-            I'm learning react and redux. I've completed the codeacademy.com courses, but I'm understanding they are a little dated. After perusing udemy.com
-            I've found a course by Stephen Grider. Students such as myself learn the newest react and es6 practices complete with Babel and Webpack.<br></br>
-            So far I've followed the course to construct a youtube video search pictured below, which was used to introduce us to react. Next we built a simple
-            book explorer with react and redux to get introduced to redux's state management concepts of reducers, actions, and action creators.
-        </p>
-        <img class="img-responsive" src="../images/web/youtube_search.png" />
-        <img class="img-responsive" src="../images/web/book_explorer.png" />
-        <p>
-          We've built another app incorporating more react and redux. This time we used open weather API, Sparklines, and google maps javascript libraries.
-          In this app you can enter a city and get a brief understanding of the upcoming weather.
-        </p>
-        <img class="img-responsive" src="../images/web/weather_app.png" />
+      </p>
+    </div>
+    <div class="container-fluid project-section-break">
+    </div>
+    <div class="project">
+      <div class="row">
+          <div class="col-sm-12">
+              <div style="float: left">
+                  <h1>React & Redux!</h1>
+              </div>
+              <div style="float: right" id="homecol">
+                  <span><a href="../index.html">Home</a></span>
+              </div>
+          </div>
+      </div>
+      <p>
+          I'm learning react and redux. I've completed the codeacademy.com courses, but I'm understanding they are a little dated. After perusing udemy.com
+          I've found a course by Stephen Grider. Students such as myself learn the newest react and es6 practices complete with Babel and Webpack.<br></br>
+          So far I've followed the course to construct a youtube video search pictured below, which was used to introduce us to react. Next we built a simple
+          book explorer with react and redux to get introduced to redux's state management concepts of reducers, actions, and action creators. We then built
+          a weather app using open weather API, Sparklines, and google maps javascript libraries. In this app you can enter a city and get a brief understanding
+          of the upcoming weather.
+          <div class="row">
+            <div class="col-sm-4">
+              <a href="../images/web/youtube_search.png" data-lightbox="react-app">
+                <img class="img-responsive" style="max-height: 640px; max-width: 285px" src="../images/web/youtube_search.png" />
+              </a>
+            </div>
+            <div class="col-sm-4">
+              <a href="../images/web/book_explorer.png" data-lightbox="react-app">
+                <img class="img-responsive" style="max-height: 640px; max-width: 285px" src="../images/web/book_explorer.png" />
+              </a>          </div>
+            <div class="col-sm-4">
+              <a href="../images/web/weather_app.png" data-lightbox="react-app">
+                <img class="img-responsive" style="max-height: 640px; max-width: 285px" src="../images/web/weather_app.png" />
+              </a>
+            </div>
+          </div>
+      </p>
     </div>
     <div class="container-fluid project-section-break">
     </div>

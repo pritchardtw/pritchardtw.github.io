@@ -1,0 +1,273 @@
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 50%;
+  height: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+@media screen and (max-width: 1920px) {
+  #bg img {
+    height: 50%;
+    width: auto;
+  }
+}
+
+h1 {
+  font-family: 'Allan', sans;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  height: 100vh;
+}
+
+.initial-container {
+  height: 100vh;
+}
+
+.container2 {
+  height: 100vh;
+}
+
+.nav-item {
+  font-size: 3vh;
+  color: white;
+  font-family: 'Allan', sans;
+  padding: 4vh;
+  position: relative;
+}
+
+.nav-item:hover {
+  color: #00d0ff;
+  cursor: pointer;
+}
+
+.nav {
+  width: 20vw;
+  left: 80vw;
+}
+
+.custom-nav {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  top: 50%;
+  transform: translateY(-65%);
+  right: 0;
+  padding-right: 5vw;
+  z-index: 0;
+}
+
+.break {
+  height: 100vh;
+}
+
+.content {
+  position: relative;
+  background-color: white;
+  padding: 3vh 5vw;
+  z-index: 1;
+}
+
+.contact {
+  text-align: center;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+/*background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;*/
+
+#Embedded {
+  background: url(../../static/images/uC_white.png) center/contain no-repeat;
+  /*box-shadow: 9px 9px 9px #999;*/
+}
+
+/*#Embedded:hover {
+  background: url(../../static/images/uC_blue.png) center/contain no-repeat;
+  box-shadow: 9px 9px 9px #00d0ff;
+}*/
+
+#Application {
+  background: url(../../static/images/application_white.png) center/contain no-repeat;
+  /*box-shadow: 9px 9px 9px #999;*/
+}
+
+/*#Application:hover {
+  background: url(../../static/images/application_blue.png) center/contain no-repeat;
+  box-shadow: 9px 9px 9px #00d0ff;
+}*/
+
+#Web {
+  background: url(../../static/images/web/gray_monitor.png) center/contain no-repeat;
+  /*box-shadow: 9px 9px 9px #999;*/
+}
+
+/*#Web:hover {
+  background: url(../../static/images/web/blue_monitor.png) center/contain no-repeat;
+  box-shadow: 9px 9px 9px #00d0ff;
+}*/
+
+.image-class {
+    max-width: 270px;
+    max-height: 270px;
+    width: 15vw;
+    height: 15vw;
+    margin: 0 auto;
+}
+
+.col-sm-4 {
+  text-align: center;
+}
+
+.Banner {
+  font-family: 'Lobster Two', cursive;
+  font-style: italic;
+  font-size: 2vw;
+  color: white;
+  padding: 1%;
+  position: relative;
+}
+
+.project {
+    background-color: white;
+    position: relative;
+    padding: 5vh 10vw;
+}
+
+.project h1 {
+    font-family: 'Allan', cursive;
+    font-style: italic;
+    color: black;
+}
+
+.project p {
+    color: black;
+    padding-top: 2em;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+}
+
+.projectlink a {
+  color: black;
+}
+
+.projectlink a:hover {
+  cursor: pointer;
+}
+
+.projectlink {
+  text-align: center;
+  padding: 2vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin: 4vh 0;
+  border-radius: 5px;
+}
+
+.projectlink ul li {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 1vh;
+}
+
+.projectlink ul {
+  padding: 15px;
+}
+
+.projectlink h1 {
+  color: black;
+}
+
+.home-tab {
+  width: 5vw;
+  max-width: 70px;
+  min-width: 45px;
+  height: 10vh;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: 5vw;
+}
+
+.home-tab-span {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.home-link, .home-link:active, .home-link:hover, .home-link:focus {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.section-break {
+  height: 30vh;
+}
+
+.rowofthree {
+  width: 25vw;
+  padding: 1vw;
+  display: inline-block;
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
+
+.contact-link {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.contact-link:active, .contact-link:visited, .contact-link:focus {
+  color: #333;
+}
+
+.btn {
+  margin-bottom: .7rem;
+  color: black;
+  font-family: 'Allan', sans;
+  font-size: 1.7rem;
+  background-color: white;
+  border-color: black;
+  box-shadow: gray 3px 3px 3px;
+  transition: box-shadow 150ms ease-in
+}
+
+.btn:hover {
+  box-shadow: gray 6px 6px 6px;
+  transition: box-shadow 150ms ease-in;
+  color: #00d0ff;
+}

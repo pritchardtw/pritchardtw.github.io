@@ -1,2 +1,3 @@
-# PersonalSite
-My personal website that is raw HTML, CSS, and JS.
+# React Personal Website
+
+This is my personal website, in React!

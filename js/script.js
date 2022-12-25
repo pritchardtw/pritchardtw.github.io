@@ -3,10 +3,10 @@ $(document).ready(function(){
 
 	var $root = $('html, body');
 
-    $("li.nav-li").mouseover(function(){
+    $("li.nav-item").mouseover(function(){
         $(this).stop().animate({right: '15px'}, 150);
     });
-    $("li.nav-li").mouseleave(function(){
+    $("li.nav-item").mouseleave(function(){
         $(this).stop().animate({right: '0px'}, 100);
     });
 
